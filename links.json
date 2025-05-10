@@ -1,0 +1,22 @@
+[
+  {
+    "name": "beIN Sport 1HD",
+    "intent_url": "intent://aHR0cHM6Ly9iYi5nZ2dzam1qaDc1NmhnZmZyZWV3Z3VpaWpuYnZjZmc3LnN0b3JlOjgxODEvYmVpbjEvaW5kZXgubTN1OA==#Intent;scheme=xmtv;package=com.xpola.player;end"
+  },
+  {
+    "name": "beIN Sport 2HD",
+    "intent_url": "intent://aHR0cHM6Ly9iYi5nZ2dzam1qaDc1NmhnZmZyZWV3Z3VpaWpuYnZjZmc3LnN0b3JlOjgxODEvYmVpbjIvaW5kZXgubTN1OA==#Intent;scheme=xmtv;package=com.xpola.player;end"
+  },
+  {
+    "name": "beIN Sport 3HD",
+    "intent_url": "intent://aHR0cHM6Ly9hYS5nZ2dzam1qaDc1NmhnZmZyZWV3Z3VpaWpuYnZjZmc3LnN0b3JlOjgxODEvYmVpbjMvaW5kZXgubTN1OA==#Intent;scheme=xmtv;package=com.xpola.player;end"
+  },
+  {
+    "name": "beIN Sport 4HD",
+    "intent_url": "intent://aHR0cHM6Ly9hYS5nZ2dzam1qaDc1NmhnZmZyZWV3Z3VpaWpuYnZjZmc3LnN0b3JlOjgxODEvYmVpbjQvaW5kZXgubTN1OA==#Intent;scheme=xmtv;package=com.xpola.player;end"
+  },
+  {
+    "name": "beIN Sport 5HD",
+    "intent_url": "intent://aHR0cHM6Ly9iYi5nZ2dzam1qaDc1NmhnZmZyZWV3Z3VpaWpuYnZjZmc3LnN0b3JlOjgxODEvYmVpbjUvaW5kZXgubTN1OA==#Intent;scheme=xmtv;package=com.xpola.player;end"
+  }
+]
