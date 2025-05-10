@@ -1,47 +1,47 @@
 [
   {
-    "name": "BEIN SPORT 1 H265 HQ 1M",
-    "intent_url": "intent://aHR0cDovL3R2Lm5vdmF2Mi5pbmZvLzk2NDMwMDc4NTY5LzI2OTY0ODUyMjc4LzQ5MzY4Mg==#Intent;scheme=xmtv;package=com.xpola.player;end",
-    "original_m3u_url": "http://tv.novav2.info/96430078569/26964852278/493682"
+    "name": "beIN SPORTS 1 [H265]",
+    "intent_url": "intent://aHR0cDovL3VnZWVuLmxpdmU6ODA4MC9VZ2Vlbl9WSVB3UFFCZ0Eva1MwV3Y4LzQ1OQ==#Intent;scheme=xmtv;package=com.xpola.player;end",
+    "original_m3u_url": "http://ugeen.live:8080/Ugeen_VIPwPQBgA/kS0Wv8/459"
   },
   {
-    "name": "BEIN SPORT 2 H265 HQ 1M",
-    "intent_url": "intent://aHR0cDovL3R2Lm5vdmF2Mi5pbmZvLzk2NDMwMDc4NTY5LzI2OTY0ODUyMjc4LzQyMjMzMQ==#Intent;scheme=xmtv;package=com.xpola.player;end",
-    "original_m3u_url": "http://tv.novav2.info/96430078569/26964852278/422331"
+    "name": "beIN SPORTS 2 [H265]",
+    "intent_url": "intent://aHR0cDovL3VnZWVuLmxpdmU6ODA4MC9VZ2Vlbl9WSVB3UFFCZ0Eva1MwV3Y4LzQ1MA==#Intent;scheme=xmtv;package=com.xpola.player;end",
+    "original_m3u_url": "http://ugeen.live:8080/Ugeen_VIPwPQBgA/kS0Wv8/450"
   },
   {
-    "name": "BEIN SPORT 3 H265 HQ 1M",
-    "intent_url": "intent://aHR0cDovL3R2Lm5vdmF2Mi5pbmZvLzk2NDMwMDc4NTY5LzI2OTY0ODUyMjc4LzU0NjUwNw==#Intent;scheme=xmtv;package=com.xpola.player;end",
-    "original_m3u_url": "http://tv.novav2.info/96430078569/26964852278/546507"
+    "name": "beIN SPORTS 3 [H265]",
+    "intent_url": "intent://aHR0cDovL3VnZWVuLmxpdmU6ODA4MC9VZ2Vlbl9WSVB3UFFCZ0Eva1MwV3Y4LzQ1MQ==#Intent;scheme=xmtv;package=com.xpola.player;end",
+    "original_m3u_url": "http://ugeen.live:8080/Ugeen_VIPwPQBgA/kS0Wv8/451"
   },
   {
-    "name": "BEIN SPORT 4 H265 HQ 1M",
-    "intent_url": "intent://aHR0cDovL3R2Lm5vdmF2Mi5pbmZvLzk2NDMwMDc4NTY5LzI2OTY0ODUyMjc4LzcxNjU1OQ==#Intent;scheme=xmtv;package=com.xpola.player;end",
-    "original_m3u_url": "http://tv.novav2.info/96430078569/26964852278/716559"
+    "name": "beIN SPORTS 4 [H265]",
+    "intent_url": "intent://aHR0cDovL3VnZWVuLmxpdmU6ODA4MC9VZ2Vlbl9WSVB3UFFCZ0Eva1MwV3Y4LzQ1Mw==#Intent;scheme=xmtv;package=com.xpola.player;end",
+    "original_m3u_url": "http://ugeen.live:8080/Ugeen_VIPwPQBgA/kS0Wv8/453"
   },
   {
-    "name": "BEIN SPORT 5 H265 HQ 1M",
-    "intent_url": "intent://aHR0cDovL3R2Lm5vdmF2Mi5pbmZvLzk2NDMwMDc4NTY5LzI2OTY0ODUyMjc4LzY4MTY2NA==#Intent;scheme=xmtv;package=com.xpola.player;end",
-    "original_m3u_url": "http://tv.novav2.info/96430078569/26964852278/681664"
+    "name": "beIN SPORTS 5 [H265]",
+    "intent_url": "intent://aHR0cDovL3VnZWVuLmxpdmU6ODA4MC9VZ2Vlbl9WSVB3UFFCZ0Eva1MwV3Y4LzM4NzU=#Intent;scheme=xmtv;package=com.xpola.player;end",
+    "original_m3u_url": "http://ugeen.live:8080/Ugeen_VIPwPQBgA/kS0Wv8/3875"
   },
   {
-    "name": "BEIN SPORT 6 H265 HQ 1M",
-    "intent_url": "intent://aHR0cDovL3R2Lm5vdmF2Mi5pbmZvLzk2NDMwMDc4NTY5LzI2OTY0ODUyMjc4LzUyMTU1MQ==#Intent;scheme=xmtv;package=com.xpola.player;end",
-    "original_m3u_url": "http://tv.novav2.info/96430078569/26964852278/521551"
+    "name": "beIN SPORTS 6 [H265]",
+    "intent_url": "intent://aHR0cDovL3VnZWVuLmxpdmU6ODA4MC9VZ2Vlbl9WSVB3UFFCZ0Eva1MwV3Y4LzQ1NQ==#Intent;scheme=xmtv;package=com.xpola.player;end",
+    "original_m3u_url": "http://ugeen.live:8080/Ugeen_VIPwPQBgA/kS0Wv8/455"
   },
   {
-    "name": "BEIN SPORT 7 H265 HQ 1M",
-    "intent_url": "intent://aHR0cDovL3R2Lm5vdmF2Mi5pbmZvLzk2NDMwMDc4NTY5LzI2OTY0ODUyMjc4LzQwNjUyNA==#Intent;scheme=xmtv;package=com.xpola.player;end",
-    "original_m3u_url": "http://tv.novav2.info/96430078569/26964852278/406524"
+    "name": "beIN SPORTS 7 [H265]",
+    "intent_url": "intent://aHR0cDovL3VnZWVuLmxpdmU6ODA4MC9VZ2Vlbl9WSVB3UFFCZ0Eva1MwV3Y4LzQwMDI=#Intent;scheme=xmtv;package=com.xpola.player;end",
+    "original_m3u_url": "http://ugeen.live:8080/Ugeen_VIPwPQBgA/kS0Wv8/4002"
   },
   {
-    "name": "BEIN SPORT 8 H265 HQ 1M",
-    "intent_url": "intent://aHR0cDovL3R2Lm5vdmF2Mi5pbmZvLzk2NDMwMDc4NTY5LzI2OTY0ODUyMjc4LzQ2NTIy#Intent;scheme=xmtv;package=com.xpola.player;end",
-    "original_m3u_url": "http://tv.novav2.info/96430078569/26964852278/46522"
+    "name": "beIN SPORTS 8 [H265]",
+    "intent_url": "intent://aHR0cDovL3VnZWVuLmxpdmU6ODA4MC9VZ2Vlbl9WSVB3UFFCZ0Eva1MwV3Y4LzQ1Nw==#Intent;scheme=xmtv;package=com.xpola.player;end",
+    "original_m3u_url": "http://ugeen.live:8080/Ugeen_VIPwPQBgA/kS0Wv8/457"
   },
   {
-    "name": "BEIN SPORT 9 H265 HQ 1M",
-    "intent_url": "intent://aHR0cDovL3R2Lm5vdmF2Mi5pbmZvLzk2NDMwMDc4NTY5LzI2OTY0ODUyMjc4LzY3OTE3OQ==#Intent;scheme=xmtv;package=com.xpola.player;end",
-    "original_m3u_url": "http://tv.novav2.info/96430078569/26964852278/679179"
+    "name": "beIN SPORTS 9 [H265]",
+    "intent_url": "intent://aHR0cDovL3VnZWVuLmxpdmU6ODA4MC9VZ2Vlbl9WSVB3UFFCZ0Eva1MwV3Y4LzQwMDM=#Intent;scheme=xmtv;package=com.xpola.player;end",
+    "original_m3u_url": "http://ugeen.live:8080/Ugeen_VIPwPQBgA/kS0Wv8/4003"
   }
 ]
