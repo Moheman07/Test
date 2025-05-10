@@ -1,37 +1,27 @@
 [
   {
-    "name": "BN002:BeIN Sport 1 HD",
-    "intent_url": "intent://aHR0cDovL3Bhdm9vdHZAbW9oZHR2LmNvbTo4ODgwL3NtYXJ0dHY1ODVjZGUwMDEwZjUvOTcyODUyNTAvMjE0MA==#Intent;scheme=xmtv;package=com.xpola.player;end",
-    "original_m3u_url": "http://pavootv@mohdtv.com:8880/smarttv585cde0010f5/97285250/2140"
+    "name": "beIN Sport 1HD",
+    "intent_url": "intent://aHR0cHM6Ly9iYi5nZ2dzam1qaDc1NmhnZmZyZWV3Z3VpaWpuYnZjZmc3LnN0b3JlOjgxODEvYmVpbjEvaW5kZXgubTN1OA==#Intent;scheme=xmtv;package=com.xpola.player;end",
+    "original_m3u_url": "https://bb.gggsjmjh756hgffreewguiijnbvcfg7.store:8181/bein1/index.m3u8"
   },
   {
-    "name": "BN003:BeIN Sport 2 HD",
-    "intent_url": "intent://aHR0cDovL3Bhdm9vdHZAbW9oZHR2LmNvbTo4ODgwL3NtYXJ0dHY1ODVjZGUwMDEwZjUvOTcyODUyNTAvMjEzOQ==#Intent;scheme=xmtv;package=com.xpola.player;end",
-    "original_m3u_url": "http://pavootv@mohdtv.com:8880/smarttv585cde0010f5/97285250/2139"
+    "name": "beIN Sport 2HD",
+    "intent_url": "intent://aHR0cHM6Ly9iYi5nZ2dzam1qaDc1NmhnZmZyZWV3Z3VpaWpuYnZjZmc3LnN0b3JlOjgxODEvYmVpbjIvaW5kZXgubTN1OA==#Intent;scheme=xmtv;package=com.xpola.player;end",
+    "original_m3u_url": "https://bb.gggsjmjh756hgffreewguiijnbvcfg7.store:8181/bein2/index.m3u8"
   },
   {
-    "name": "BN004:BeIN Sport 3 HD",
-    "intent_url": "intent://aHR0cDovL3Bhdm9vdHZAbW9oZHR2LmNvbTo4ODgwL3NtYXJ0dHY1ODVjZGUwMDEwZjUvOTcyODUyNTAvMjEzOA==#Intent;scheme=xmtv;package=com.xpola.player;end",
-    "original_m3u_url": "http://pavootv@mohdtv.com:8880/smarttv585cde0010f5/97285250/2138"
+    "name": "beIN Sport 3HD",
+    "intent_url": "intent://aHR0cHM6Ly9hYS5nZ2dzam1qaDc1NmhnZmZyZWV3Z3VpaWpuYnZjZmc3LnN0b3JlOjgxODEvYmVpbjMvaW5kZXgubTN1OA==#Intent;scheme=xmtv;package=com.xpola.player;end",
+    "original_m3u_url": "https://aa.gggsjmjh756hgffreewguiijnbvcfg7.store:8181/bein3/index.m3u8"
   },
   {
-    "name": "BN005:BeIN Sport 4 HD",
-    "intent_url": "intent://aHR0cDovL3Bhdm9vdHZAbW9oZHR2LmNvbTo4ODgwL3NtYXJ0dHY1ODVjZGUwMDEwZjUvOTcyODUyNTAvMjEzNw==#Intent;scheme=xmtv;package=com.xpola.player;end",
-    "original_m3u_url": "http://pavootv@mohdtv.com:8880/smarttv585cde0010f5/97285250/2137"
+    "name": "beIN Sport 4HD",
+    "intent_url": "intent://aHR0cHM6Ly9hYS5nZ2dzam1qaDc1NmhnZmZyZWV3Z3VpaWpuYnZjZmc3LnN0b3JlOjgxODEvYmVpbjQvaW5kZXgubTN1OA==#Intent;scheme=xmtv;package=com.xpola.player;end",
+    "original_m3u_url": "https://aa.gggsjmjh756hgffreewguiijnbvcfg7.store:8181/bein4/index.m3u8"
   },
   {
-    "name": "BN006:BeIN Sport 5 HD",
-    "intent_url": "intent://aHR0cDovL3Bhdm9vdHZAbW9oZHR2LmNvbTo4ODgwL3NtYXJ0dHY1ODVjZGUwMDEwZjUvOTcyODUyNTAvMjEzNg==#Intent;scheme=xmtv;package=com.xpola.player;end",
-    "original_m3u_url": "http://pavootv@mohdtv.com:8880/smarttv585cde0010f5/97285250/2136"
-  },
-  {
-    "name": "BN007:BeIN Sport 6 HD",
-    "intent_url": "intent://aHR0cDovL3Bhdm9vdHZAbW9oZHR2LmNvbTo4ODgwL3NtYXJ0dHY1ODVjZGUwMDEwZjUvOTcyODUyNTAvMjEzNQ==#Intent;scheme=xmtv;package=com.xpola.player;end",
-    "original_m3u_url": "http://pavootv@mohdtv.com:8880/smarttv585cde0010f5/97285250/2135"
-  },
-  {
-    "name": "BN008:BeIN Sport 7 HD",
-    "intent_url": "intent://aHR0cDovL3Bhdm9vdHZAbW9oZHR2LmNvbTo4ODgwL3NtYXJ0dHY1ODVjZGUwMDEwZjUvOTcyODUyNTAvMjEzNA==#Intent;scheme=xmtv;package=com.xpola.player;end",
-    "original_m3u_url": "http://pavootv@mohdtv.com:8880/smarttv585cde0010f5/97285250/2134"
+    "name": "beIN Sport 5HD",
+    "intent_url": "intent://aHR0cHM6Ly9iYi5nZ2dzam1qaDc1NmhnZmZyZWV3Z3VpaWpuYnZjZmc3LnN0b3JlOjgxODEvYmVpbjUvaW5kZXgubTN1OA==#Intent;scheme=xmtv;package=com.xpola.player;end",
+    "original_m3u_url": "https://bb.gggsjmjh756hgffreewguiijnbvcfg7.store:8181/bein5/index.m3u8"
   }
 ]
