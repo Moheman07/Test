@@ -1,78 +1,22 @@
 [
   {
-    "name": "⚽ beIN Sportsᴴᴰ",
-    "intent_url": "intent://aHR0cHM6Ly9tbzNhZC54eXovbGl2ZS94WXd5TUd1a0NWL3pqdzR2SnpBeWovNDk3LnRz#Intent;scheme=xmtv;package=com.xpola.player;end"
+    "name": "beIN Sport 1HD",
+    "intent_url": "intent://aHR0cHM6Ly9iYi5nZ2dzam1qaDc1NmhnZmZyZWV3Z3VpaWpuYnZjZmc3LnN0b3JlOjgxODEvYmVpbjEvaW5kZXgubTN1OA==#Intent;scheme=xmtv;package=com.xpola.player;end"
   },
   {
-    "name": "⚽ beIN SPORTS 1ᴴᴰ",
-    "intent_url": "intent://aHR0cHM6Ly9tbzNhZC54eXovbGl2ZS94WXd5TUd1a0NWL3pqdzR2SnpBeWovNDk4LnRz#Intent;scheme=xmtv;package=com.xpola.player;end"
+    "name": "beIN Sport 2HD",
+    "intent_url": "intent://aHR0cHM6Ly9iYi5nZ2dzam1qaDc1NmhnZmZyZWV3Z3VpaWpuYnZjZmc3LnN0b3JlOjgxODEvYmVpbjIvaW5kZXgubTN1OA==#Intent;scheme=xmtv;package=com.xpola.player;end"
   },
   {
-    "name": "⚽ beIN SPORTS 2ᴴᴰ",
-    "intent_url": "intent://aHR0cHM6Ly9tbzNhZC54eXovbGl2ZS94WXd5TUd1a0NWL3pqdzR2SnpBeWovNDk5LnRz#Intent;scheme=xmtv;package=com.xpola.player;end"
+    "name": "beIN Sport 3HD",
+    "intent_url": "intent://aHR0cHM6Ly9hYS5nZ2dzam1qaDc1NmhnZmZyZWV3Z3VpaWpuYnZjZmc3LnN0b3JlOjgxODEvYmVpbjMvaW5kZXgubTN1OA==#Intent;scheme=xmtv;package=com.xpola.player;end"
   },
   {
-    "name": "⚽ beIN SPORTS 3ᴴᴰ",
-    "intent_url": "intent://aHR0cHM6Ly9tbzNhZC54eXovbGl2ZS94WXd5TUd1a0NWL3pqdzR2SnpBeWovNTAwLnRz#Intent;scheme=xmtv;package=com.xpola.player;end"
+    "name": "beIN Sport 4HD",
+    "intent_url": "intent://aHR0cHM6Ly9hYS5nZ2dzam1qaDc1NmhnZmZyZWV3Z3VpaWpuYnZjZmc3LnN0b3JlOjgxODEvYmVpbjQvaW5kZXgubTN1OA==#Intent;scheme=xmtv;package=com.xpola.player;end"
   },
   {
-    "name": "⚽ beIN SPORTS 4ᴴᴰ",
-    "intent_url": "intent://aHR0cHM6Ly9tbzNhZC54eXovbGl2ZS94WXd5TUd1a0NWL3pqdzR2SnpBeWovNTAxLnRz#Intent;scheme=xmtv;package=com.xpola.player;end"
-  },
-  {
-    "name": "⚽ beIN SPORTS 5ᴴᴰ",
-    "intent_url": "intent://aHR0cHM6Ly9tbzNhZC54eXovbGl2ZS94WXd5TUd1a0NWL3pqdzR2SnpBeWovNTAyLnRz#Intent;scheme=xmtv;package=com.xpola.player;end"
-  },
-  {
-    "name": "⚽ beIN SPORTS 6ᴴᴰ",
-    "intent_url": "intent://aHR0cHM6Ly9tbzNhZC54eXovbGl2ZS94WXd5TUd1a0NWL3pqdzR2SnpBeWovNTAzLnRz#Intent;scheme=xmtv;package=com.xpola.player;end"
-  },
-  {
-    "name": "⚽ beIN SPORTS 7ᴴᴰ",
-    "intent_url": "intent://aHR0cHM6Ly9tbzNhZC54eXovbGl2ZS94WXd5TUd1a0NWL3pqdzR2SnpBeWovNTA0LnRz#Intent;scheme=xmtv;package=com.xpola.player;end"
-  },
-  {
-    "name": "⚽ beIN SPORTS 8ᴴᴰ",
-    "intent_url": "intent://aHR0cHM6Ly9tbzNhZC54eXovbGl2ZS94WXd5TUd1a0NWL3pqdzR2SnpBeWovNTA1LnRz#Intent;scheme=xmtv;package=com.xpola.player;end"
-  },
-  {
-    "name": "⚽ beIN SPORTS 9ᴴᴰ",
-    "intent_url": "intent://aHR0cHM6Ly9tbzNhZC54eXovbGl2ZS94WXd5TUd1a0NWL3pqdzR2SnpBeWovNTA2LnRz#Intent;scheme=xmtv;package=com.xpola.player;end"
-  },
-  {
-    "name": "⚽ beIN SPORTS 1ടⅾ",
-    "intent_url": "intent://aHR0cHM6Ly9tbzNhZC54eXovbGl2ZS94WXd5TUd1a0NWL3pqdzR2SnpBeWovNTE1LnRz#Intent;scheme=xmtv;package=com.xpola.player;end"
-  },
-  {
-    "name": "⚽ beIN SPORTS 2ടⅾ",
-    "intent_url": "intent://aHR0cHM6Ly9tbzNhZC54eXovbGl2ZS94WXd5TUd1a0NWL3pqdzR2SnpBeWovNTE2LnRz#Intent;scheme=xmtv;package=com.xpola.player;end"
-  },
-  {
-    "name": "⚽ beIN SPORTS 3ടⅾ",
-    "intent_url": "intent://aHR0cHM6Ly9tbzNhZC54eXovbGl2ZS94WXd5TUd1a0NWL3pqdzR2SnpBeWovNTE3LnRz#Intent;scheme=xmtv;package=com.xpola.player;end"
-  },
-  {
-    "name": "⚽ beIN SPORTS 4ടⅾ",
-    "intent_url": "intent://aHR0cHM6Ly9tbzNhZC54eXovbGl2ZS94WXd5TUd1a0NWL3pqdzR2SnpBeWovNTE4LnRz#Intent;scheme=xmtv;package=com.xpola.player;end"
-  },
-  {
-    "name": "⚽ beIN SPORTS 5ടⅾ",
-    "intent_url": "intent://aHR0cHM6Ly9tbzNhZC54eXovbGl2ZS94WXd5TUd1a0NWL3pqdzR2SnpBeWovNTE5LnRz#Intent;scheme=xmtv;package=com.xpola.player;end"
-  },
-  {
-    "name": "⚽ beIN SPORTS 6ടⅾ",
-    "intent_url": "intent://aHR0cHM6Ly9tbzNhZC54eXovbGl2ZS94WXd5TUd1a0NWL3pqdzR2SnpBeWovNTIwLnRz#Intent;scheme=xmtv;package=com.xpola.player;end"
-  },
-  {
-    "name": "⚽ beIN SPORTS 7ടⅾ",
-    "intent_url": "intent://aHR0cHM6Ly9tbzNhZC54eXovbGl2ZS94WXd5TUd1a0NWL3pqdzR2SnpBeWovNTIxLnRz#Intent;scheme=xmtv;package=com.xpola.player;end"
-  },
-  {
-    "name": "⚽ beIN SPORTS 8ടⅾ",
-    "intent_url": "intent://aHR0cHM6Ly9tbzNhZC54eXovbGl2ZS94WXd5TUd1a0NWL3pqdzR2SnpBeWovNTIyLnRz#Intent;scheme=xmtv;package=com.xpola.player;end"
-  },
-  {
-    "name": "⚽ beIN SPORTS 9ടⅾ",
-    "intent_url": "intent://aHR0cHM6Ly9tbzNhZC54eXovbGl2ZS94WXd5TUd1a0NWL3pqdzR2SnpBeWovNTIzLnRz#Intent;scheme=xmtv;package=com.xpola.player;end"
+    "name": "beIN Sport 5HD",
+    "intent_url": "intent://aHR0cHM6Ly9iYi5nZ2dzam1qaDc1NmhnZmZyZWV3Z3VpaWpuYnZjZmc3LnN0b3JlOjgxODEvYmVpbjUvaW5kZXgubTN1OA==#Intent;scheme=xmtv;package=com.xpola.player;end"
   }
 ]
