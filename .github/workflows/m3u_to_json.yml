@@ -1,0 +1,27 @@
+name: Convert M3U to JSON
+
+on:
+  workflow_dispatch:
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+        
+      - name: Run conversion
+        run: python m3u_to_json.py
+        
+      - name: Upload output
+        uses: actions/upload-artifact@v3
+        with:
+          name: channels-json
+          path: channels.json
