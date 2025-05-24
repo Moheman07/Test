@@ -3,7 +3,7 @@ on:
   push:
     paths:
       - 'channels.m3u'
-  workflow_dispatch: # تفعيل التشغيل اليدوي
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
