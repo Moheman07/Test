@@ -1,30 +1,25 @@
 import json
-import os
 
-def create_channels_json(output_file):
-    channels = [
-        {
-            "name": "القناة الأولى",
-            "url": "http://example.com/channel1",
-            "logo": "logos/channel1.png",
-            "guide": "guides/channel1.pdf"
-        },
-        {
-            "name": "القناة الثانية",
-            "url": "http://example.com/channel2",
-            "logo": "logos/channel2.png",
-            "guide": "guides/channel2.pdf"
-        }
-        # يمكنك إضافة المزيد من القنوات هنا
-    ]
-    
-    # إنشاء مجلدات إذا لم تكن موجودة
-    os.makedirs("logos", exist_ok=True)
-    os.makedirs("guides", exist_ok=True)
-    
-    # حفظ البيانات في ملف JSON
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(channels, f, indent=4, ensure_ascii=False)
+# دالة لتحليل ملف M3U
+def parse_m3u(file_path):
+    channels = []
+    with open(file_path, 'r') as file:
+        lines = file.readlines()
+        for line in lines:
+            if line.startswith('#EXTINF'):
+                parts = line.split(',')
+                name = parts[1].strip()
+                link = next(file).strip()
+                logo = ""  # أضف منطق لاستخراج الشعار إذا كان متاحًا
+                channels.append({"name": name, "link": link, "logo": logo})
+    return channels
 
-if __name__ == '__main__':
-    create_channels_json('channels.json')
+# تحويل القنوات إلى JSON
+def convert_to_json(channels):
+    return json.dumps(channels, indent=4)
+
+# استخدام المثال
+m3u_file_path = 'path/to/your/file.m3u'
+channels = parse_m3u(m3u_file_path)
+json_data = convert_to_json(channels)
+print(json_data)
