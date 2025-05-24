@@ -1,57 +1,21 @@
-name: Convert M3U to JSON
-
+name: Update Channels JSON
 on:
   push:
     paths:
       - 'channels.m3u'
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
 jobs:
-  convert:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v3
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
           python-version: '3.x'
       - name: Install dependencies
         run: pip install regex
       - name: Convert M3U to JSON
-        run: |
-          echo "import re
-          import json
-
-          def parse_m3u(file_path):
-              channels = []
-              with open(file_path, 'r', encoding='utf-8') as file:
-                  lines = file.readlines()
-                  for i, line in enumerate(lines):
-                      if line.startswith('#EXTINF'):
-                          match = re.search(r'tvg-logo=\"([^\"]+)\",(.+)', line)
-                          if match:
-                              logo = match.group(1)
-                              name = match.group(2).strip()
-                              url = '' if i + 1 >= len(lines) or lines[i + 1].startswith('#') else lines[i + 1].strip()
-                              channels.append({
-                                  'name': name,
-                                  'url': url,
-                                  'logo': logo
-                              })
-              return channels
-
-          def save_to_json(channels, output_file):
-              with open(output_file, 'w', encoding='utf-8') as file:
-                  json.dump(channels, file, ensure_ascii=False, indent=4)
-
-          if __name__ == '__main__':
-              channels = parse_m3u('channels.m3u')
-              save_to_json(channels, 'channels.json')" > convert_m3u_to_json.py
-          python convert_m3u_to_json.py
+        run: python convert_m3u_to_json.py
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
@@ -59,5 +23,3 @@ jobs:
           git add channels.json
           git commit -m "Update channels.json" || echo "No changes to commit"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
