@@ -5,15 +5,24 @@ channels = []
 current_group = None
 
 with open('channels.m3u', 'r', encoding='utf-8') as file:
-    for line in file:
-        line = line.strip()
+    lines = file.readlines()  # قراءة كل الأسطر مقدمًا
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
         if line.startswith('#EXTM3U'):
+            i += 1
             continue
         elif line.startswith('#EXTINF'):
             match = re.search(r'tvg-logo="([^"]*)".*?,(.*)', line)
             if match:
                 logo, title = match.groups()
-                url = next(file).strip() if not file._io.closed else ''
+                # التحقق من وجود سطر تالي للرابط
+                url = ''
+                if i + 1 < len(lines):
+                    url = lines[i + 1].strip()
+                    i += 2  # تخطي سطر الرابط
+                else:
+                    i += 1  # نهاية الملف، لا رابط
                 channel = {
                     'title': title.strip(),
                     'logo': logo.strip() or 'https://via.placeholder.com/100',
@@ -23,6 +32,8 @@ with open('channels.m3u', 'r', encoding='utf-8') as file:
                 if url == '0.0.0.0':
                     current_group = title.strip()
                 channels.append(channel)
+        else:
+            i += 1
 
 # حفظ جميع القنوات (بدون تصفية)
 with open('channels.json', 'w', encoding='utf-8') as file:
