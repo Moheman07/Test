@@ -1,17 +1,30 @@
 import json
+import os
 
-def m3u_to_json(links_file, json_file):
-    # قراءة الروابط من ملف منفصل
-    with open(links_file, 'r') as f:
-        links = [line.strip() for line in f if line.strip()]
+def create_channels_json(output_file):
+    channels = [
+        {
+            "name": "القناة الأولى",
+            "url": "http://example.com/channel1",
+            "logo": "logos/channel1.png",
+            "guide": "guides/channel1.pdf"
+        },
+        {
+            "name": "القناة الثانية",
+            "url": "http://example.com/channel2",
+            "logo": "logos/channel2.png",
+            "guide": "guides/channel2.pdf"
+        }
+        # يمكنك إضافة المزيد من القنوات هنا
+    ]
     
-    # إنشاء قناة لكل رابط
-    channels = [{'name': f'Channel {i+1}', 'url': url} 
-               for i, url in enumerate(links)]
+    # إنشاء مجلدات إذا لم تكن موجودة
+    os.makedirs("logos", exist_ok=True)
+    os.makedirs("guides", exist_ok=True)
     
-    # حفظ النتيجة في ملف JSON
-    with open(json_file, 'w') as f:
-        json.dump(channels, f, indent=4)
+    # حفظ البيانات في ملف JSON
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(channels, f, indent=4, ensure_ascii=False)
 
 if __name__ == '__main__':
-    m3u_to_json('links.txt', 'output.json')
+    create_channels_json('channels.json')
