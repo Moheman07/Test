@@ -3,37 +3,61 @@ name: Convert M3U to JSON
 on:
   push:
     paths:
-      - 'channels.m3u' # تشغيل المهمة عند تحديث ملف M3U
-  workflow_dispatch: # السماح بتشغيل المهمة يدويًا
+      - 'channels.m3u'
+  workflow_dispatch:
 
 permissions:
-  contents: write # منح صلاحية الكتابة لتحديث الملفات
+  contents: write
 
 jobs:
   convert:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: pip install regex
+      - name: Convert M3U to JSON
+        run: |
+          echo "import re
+          import json
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.x'
+          def parse_m3u(file_path):
+              channels = []
+              with open(file_path, 'r', encoding='utf-8') as file:
+                  lines = file.readlines()
+                  for i, line in enumerate(lines):
+                      if line.startswith('#EXTINF'):
+                          match = re.search(r'tvg-logo=\"([^\"]+)\",(.+)', line)
+                          if match:
+                              logo = match.group(1)
+                              name = match.group(2).strip()
+                              url = '' if i + 1 >= len(lines) or lines[i + 1].startswith('#') else lines[i + 1].strip()
+                              channels.append({
+                                  'name': name,
+                                  'url': url,
+                                  'logo': logo
+                              })
+              return channels
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
+          def save_to_json(channels, output_file):
+              with open(output_file, 'w', encoding='utf-8') as file:
+                  json.dump(channels, file, ensure_ascii=False, indent=4)
 
-    - name: Run conversion script
-      run: python convert_m3u_to_json.py
-
-    - name: Commit changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add channels.json
-        git commit -m "Update channels.json" || echo "No changes to commit"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          if __name__ == '__main__':
+              channels = parse_m3u('channels.m3u')
+              save_to_json(channels, 'channels.json')" > convert_m3u_to_json.py
+          python convert_m3u_to_json.py
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add channels.json
+          git commit -m "Update channels.json" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
