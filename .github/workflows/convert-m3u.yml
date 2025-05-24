@@ -6,6 +6,9 @@ on:
       - 'channels.m3u' # تشغيل المهمة عند تحديث ملف M3U
   workflow_dispatch: # السماح بتشغيل المهمة يدويًا
 
+permissions:
+  contents: write # منح صلاحية الكتابة لتحديث الملفات
+
 jobs:
   convert:
     runs-on: ubuntu-latest
