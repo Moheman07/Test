@@ -36,13 +36,12 @@ jobs:
                           if match:
                               logo = match.group(1)
                               name = match.group(2).strip()
-                              if i + 1 < len(lines) and not lines[i + 1].startswith('#'):
-                                  url = lines[i + 1].strip()
-                                  channels.append({
-                                      'name': name,
-                                      'url': url,
-                                      'logo': logo
-                                  })
+                              url = '' if i + 1 >= len(lines) or lines[i + 1].startswith('#') else lines[i + 1].strip()
+                              channels.append({
+                                  'name': name,
+                                  'url': url,
+                                  'logo': logo
+                              })
               return channels
 
           def save_to_json(channels, output_file):
