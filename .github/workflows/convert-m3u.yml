@@ -1,0 +1,36 @@
+name: Convert M3U to JSON
+
+on:
+  push:
+    paths:
+      - 'channels.m3u' # تشغيل المهمة عند تحديث ملف M3U
+  workflow_dispatch: # السماح بتشغيل المهمة يدويًا
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+
+    - name: Run conversion script
+      run: python convert_m3u_to_json.py
+
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add channels.json
+        git commit -m "Update channels.json" || echo "No changes to commit"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
