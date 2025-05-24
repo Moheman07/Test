@@ -21,7 +21,7 @@ jobs:
         run: python m3u_to_json.py
         
       - name: Upload output
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: channels-json
           path: channels.json
